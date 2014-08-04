@@ -17,7 +17,8 @@ set expandtab
 " may be replaced by session code instead
 "au BufWinLeave ?* mkview
 "au BufWinEnter ?* silent loadview 
-" TESTING NEW LINE
+" TESTING NEW LINE...and this is what I added to the existing line on the second host
+" ...and here is a second line I added on the second host
 
 
 " Convenient command to see the difference between the current buffer and the
