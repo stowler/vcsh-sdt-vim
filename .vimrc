@@ -17,6 +17,7 @@ set expandtab
 " may be replaced by session code instead
 "au BufWinLeave ?* mkview
 "au BufWinEnter ?* silent loadview 
+" TESTING NEW LINE
 
 
 " Convenient command to see the difference between the current buffer and the
