@@ -1,4 +1,6 @@
 *
+!/.gitignore.d
+!/.gitignore.d/vcsh-sdt-vim
 !/.vim
 !/.vim/colors
 !/.vim/colors/ir_black.vim
