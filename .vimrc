@@ -36,24 +36,27 @@ endif
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    " don't forget also need options in .gvimrc for macvim color:
    "	set bg=dark
-   "	colorscheme peaksea
-
+   "	colorscheme solarized
 
    set t_Co=256
 
    " Switch syntax highlighting on, when the terminal has colors
    " Also switch on highlighting the last used search pattern.
-   if &t_Co > 2 || has("gui_running")
-     syntax on
-     set hlsearch
-   endif
+   "if &t_Co > 2 || has("gui_running")
+   "  syntax on
+   "  set hlsearch
+   "endif
 
 
    "colorscheme zenburn
-   set background=dark
-   colorscheme peaksea
    ":colo zenburn | set bg=dark
+   syntax enable
+   set background=dark
+   colorscheme solarized
 
+   " md is markdown
+   autocmd BufRead,BufNewFile *.md set filetype=markdown
+   autocmd BufRead,BufNewFile *.md set spell
 
 
 " NETRW OPTIONS
