@@ -1,0 +1,1 @@
+../../src.upstream.gitRepos/solarized/vim-colors-solarized/colors/solarized.vim
