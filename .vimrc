@@ -30,7 +30,11 @@ if !exists(":DiffOrig")
 endif
 
 
-
+" FONT OPTIONS
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+if has('gui_running')
+  set guifont=Menlo\ Regular:h16
+endif
 
 " COLOR OPTIONS
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
