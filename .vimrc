@@ -5,8 +5,8 @@ set vb
 set t_vb&
 
 " good settings for indent-based folding:
-set foldmethod=indent
-set foldcolumn=2
+"set foldmethod=indent
+"set foldcolumn=2
 set autoindent
 set shiftwidth=3
 set tabstop=3
